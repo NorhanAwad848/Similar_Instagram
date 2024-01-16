@@ -1,0 +1,97 @@
+.textt{
+    text-align: center;
+    top: 0px;
+   }
+.pic:hover .textt
+{
+    width: 100%;
+    height:100%;
+    left:0;
+    text-align: center;
+    bottom:0;
+}
+.textt p
+{
+  font-size: 20px;
+    margin:10px 0 0;
+    padding:1em  1em;
+    transform:translateY(2em);
+    line-height: 1.3em;
+    transition: 0.3s;
+    text-align:justify;
+    opacity: 0;
+   color: rgb(223, 206, 206);
+}
+.pic:hover .textt p
+{
+    transform: translateY(0);
+    opacity: 1;
+}
+.pic:hover
+{
+    box-shadow: 0 0 5em rgba(0.0.0.0.4);
+}
+.pic .textt
+{
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    height:0;
+    padding: 12px;
+    background: rgb(27,27,27,.5);
+    transition: all 0.5s cubic-bezier(.48,-0.28,0.41,1.4);
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.pic1{
+    text-align: center;
+    display: inline;
+  }
+  .pic2{
+    text-align: center;
+    display: inline;
+  }
+  .explore-container
+{
+  margin-top: 100px;
+  margin-left: 300px;
+  width: 80%;
+  text-align: center;
+}
+
+.photo-gallery
+{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+@keyframes  animate
+{
+  0%{
+    width: 100px;
+  }
+  50%{
+    width: 200px;
+  }
+  100%{
+    width: 100px;
+  }
+}
+.pic
+{
+  position:sticky;
+  height: 230px;
+  box-shadow: 3px 3px 5px white;
+  cursor: pointer;
+}
+.pic img
+{
+  width: 100%;
+  height:100% ;
+  border-radius: 10px;
+}

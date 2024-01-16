@@ -1,0 +1,38 @@
+.follow img{
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px white;
+  }
+  .follow p{
+    color:gray ;
+    margin-top: 0px;
+    margin-left: 45px;
+  }
+  .follow h5{
+    color: #f1f1f1;
+    margin-top: -50px;
+      margin-left: 50px;
+    }
+    .follow h5:hover{
+      color: greenyellow;
+    }
+    .follow a{
+      text-decoration: none;
+      color: #2177d9;
+      margin-left:35px ;
+    }
+    
+.follow{
+    margin-left: 1009px;
+    margin-top: 25px;
+  }
+  .head{
+    color: gray;
+    margin-left: 1000px;
+  }
+  .lhead{
+    color: #f1f1f1;
+    margin-left: 250px;
+  }
